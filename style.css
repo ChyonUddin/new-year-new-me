@@ -135,4 +135,50 @@ li > i{
    margin-top: 40px;
    margin-left: 40px;
 }
+/* footer related style*/
+footer{
+    width: 1600px;
+    height: 500px;
+    background-color: #151414;
+    margin-top: 60px;
+}
+.footer{
+    display: flex;
+    margin-right: 40px;
+}
+.future-coulme-1, .future-coulme-2{
+    width: 700px;
+    height: 400px;
+   padding-top: 130px;
+   padding-left: 130px;
+    color: #FFFFFF;
+}
+.footer-title{
+    font-size: 35px;
+    margin: 5px; 
+}
+.footer-discription{
+    font-size: 18px;
+    line-height: 26px;
+}
+.email{
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.icons{
+    margin-top: 15px;
+}
+/*footer-coulme-2*/
+
+h4{
+font-size: 25px;
+margin-bottom: 10px;
+padding-top: 40px;
+}
+.future-coulme-2> .email{
+    width: 130px;
+    padding: 10px;
+    margin-right: 5px;
+    display: inline;
+}
 
