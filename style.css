@@ -1,0 +1,138 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* common style */
+.btn-primary{
+    border-radius: 5px;
+    padding: 10px 14px;
+    background-color: #F15B22;
+    color: #FFFFFF;
+    font-size: 16px;
+} 
+
+.btn-primary:hover{
+    background-color: #f2f1f3;
+    color: rgb(13, 17, 20);
+    border-radius: 5px solid black;
+}
+
+/* banner style */
+.banner{
+    max-width: 1600px;
+    height: 800px;
+    background-image: url('/images/banner/banner1.png');
+    background-repeat: no-repeat;
+    margin-bottom: 60px;
+}
+.banner > .main-section{
+text-align: right;
+padding: 200px 90px 130px 900px;
+}
+.section-title{
+    font-size: 50px;
+    color: #151414;
+    margin-bottom: 0px;
+}
+.section-description{
+    font-size: 14px;
+    line-height: 26px;
+    color: #444343;
+}
+
+/* banner-2 style */
+.banner-2{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+.img-2{
+    padding-left: 10px;
+}
+.paragraph{
+    padding-top: 250px;
+    margin-left: 40px;
+    width: 300px;
+    height: 65px;
+}
+.paragraph> h2{
+    font-size: 50px;
+    margin-bottom: 0px;
+    color: #000000;
+    text-shadow: 2px 2px #444343;
+}
+.paragraph> p{
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 10px;
+    color: #444343;
+    text-shadow: .5px .5px #444343;
+}
+li{
+    list-style: none;
+    line-height: 26px;
+    color: #444343;
+    text-shadow: .5px .5px #444343;
+}
+li > i{
+    color: #16D887;
+    margin-right: 5px;
+}
+
+/*my plans */
+.my-plan{
+    width: 1000px;
+    height: 250px;
+    margin-top: 10px;
+    margin-right: 100px;
+    padding: 190px;
+}
+.my-plan-header{
+    font-size: 40px;
+    color: #151414;
+    text-align: center;
+}
+.my-plan-skills-container{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;  
+}
+.img{
+    width: 70px;
+    height: 70px;
+    align-items: center;
+}
+.my-plan-title{
+    font-size: 24px;
+    margin-top: 10px;
+}
+.my-plan-description{
+    font-size: 17px;
+    margin-top: 5px;
+}
+.always{
+  background-image: url(/images/watch.png) ;
+  background-repeat: no-repeat;
+  width: 700px;
+  height: 250px;
+  margin-left: 280px;
+  position: relative;
+  margin-top: 0px;
+}
+.always-title{
+    width: 400px;
+    height: 40px;
+    padding-top: 30px;
+    padding-left: 35px;
+    font-size: 35px;
+}
+.always> .btn-primary{
+   margin-top: 40px;
+   margin-left: 40px;
+}
+
